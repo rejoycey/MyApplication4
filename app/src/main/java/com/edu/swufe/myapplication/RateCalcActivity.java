@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class RateCalcActivity extends AppCompatActivity {
-
      String TAG = "rateCalc";
     float rate=0f;
     EditText inp2;
@@ -28,14 +27,10 @@ public class RateCalcActivity extends AppCompatActivity {
         inp2.addTextChangedListener( new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
             }
-
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-
             }
-
             @Override
             public void afterTextChanged(Editable s) {
                 //监听转换，不用按键
@@ -46,9 +41,7 @@ public class RateCalcActivity extends AppCompatActivity {
                 }else {
                     show.setText("");
                 }
-
             }
         } );
-
     }
 }
