@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">汇率转换器</string>
+    <string name="int_hint"></string>
+    <string name="btn">开始转换</string>
+    <string name="hin_txt">Input your name</string>
+    <string name="label_add1">+1 point</string>
+    <string name="label_add2">+2 points</string>
+    <string name="label_add3">+3 points</string>
+    <string name="button_reset_label">Reset </string>
+    <string name="btn_dollar_label">Dollar </string>
+    <string name="btn_euro_label">Euro </string>
+    <string name="btn_won_label">Won </string>
+    <string name="rmb_hint">Input RMB  </string>
+    <string name="btn_opencfg_label">CONFIG</string>
+    <string name="btn_save_label">SAVE</string>
+    <string name="menu_set_label">Setting</string>
+    <string name="title_activity_rate_list">RateListActivity</string>
+    <string name="label_open_list">OpenList</string>
+</resources>
